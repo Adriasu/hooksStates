@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import ButtonColorTheme from "./ButtonColorTheme";
-import { useState } from "react";
+
 
 const ColorTheme = () => {
   const [lightDark, setLightDark] = useState(true);
