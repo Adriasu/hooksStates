@@ -1,5 +1,6 @@
 import React from "react";
 import LikeButton from "./components/LikeButton";
+import ColorTheme from "./components/ColorTheme";
 
 const App = () => {
   return (
@@ -9,6 +10,8 @@ const App = () => {
       <LikeButton />
 
       <p className="p-10">EJERCICIO 2</p>
+
+      <ColorTheme/>
     </div>
   );
 };
