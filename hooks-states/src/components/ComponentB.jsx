@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ComponentC from './ComponentC'
 
-const ComponentB = ({numValueX, valueX, setValueX}) => {
+const ComponentB = ({numValueX}) => {
+
+  const [valueX, setValueX] = useState(0)
 
   const sumNumber = () => {
-    setValueX((prev) => (numValueX + numValueX))
+    setValueX(() => (numValueX + numValueX))
   }
 
   return (
