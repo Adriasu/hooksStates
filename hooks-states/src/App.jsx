@@ -1,6 +1,8 @@
 import React from "react";
 import LikeButton from "./components/LikeButton";
 import ColorTheme from "./components/ColorTheme";
+import ParentComponentA from "./components/ParentComponentA";
+
 
 const App = () => {
   return (
@@ -12,6 +14,11 @@ const App = () => {
       <p className="p-10">EJERCICIO 2</p>
 
       <ColorTheme/>
+
+      <p className="p-10">EJERCICIO 3</p>
+
+      <ParentComponentA/>
+
     </div>
   );
 };

@@ -6,7 +6,7 @@ const ButtonColorTheme = ({lightDark}) => {
 
   return (
     
-      <button className={classColorTheme}>{lightDark === true ? "Dark" : "Light"}</button>
+      <button className={`${classColorTheme} w-[70px] rounded-lg`}>{lightDark === true ? "Dark" : "Light"}</button>
     
   )
 }
