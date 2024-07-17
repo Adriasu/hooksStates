@@ -4,7 +4,7 @@ import ComponentB from "./ComponentB";
 
 const ParentComponentA = () => {
 
-  const numValueX = 22
+  const numValueX = 42
   
   return (
     <div className="flex flex-col gap-2 p-5 items-start w-[700px] h-[400px] bg-slate-200 mb-16 border-[2px] border-black rounded-2xl">
