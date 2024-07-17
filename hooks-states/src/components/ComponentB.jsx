@@ -10,9 +10,9 @@ const ComponentB = ({numValueX}) => {
   }
 
   return (
-    <div className='flex flex-col gap-5 p-5 items-start w-[650px] h-[300px] border-[2px] border-black'>
-        <h1>ComponentB</h1>
-        <p>x = {valueX}</p>
+    <div className='flex flex-col gap-2 p-5 items-start w-[650px] h-[300px] border-[2px] border-black rounded-2xl'>
+        <h1 className="text-3xl">ComponentB</h1>
+        <p className="text-xl">x = {valueX}</p>
 
         <ComponentC numValueX={numValueX} sumNumber={sumNumber}/>
       

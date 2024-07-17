@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ButtonColorTheme from "./ButtonColorTheme";
 
-
 const ColorTheme = () => {
   const [lightDark, setLightDark] = useState(true);
   const changeLightDark = () => {
@@ -31,9 +30,11 @@ const ColorTheme = () => {
         excepturi blanditiis?
       </p>
 
-      <button onClick={changeLightDark}>
-        <ButtonColorTheme lightDark={lightDark} />
-      </button>
+      <ButtonColorTheme
+        lightDark={lightDark}
+        classColorTheme={classColorTheme}
+        changeLightDark={changeLightDark}
+      />
     </div>
   );
 };

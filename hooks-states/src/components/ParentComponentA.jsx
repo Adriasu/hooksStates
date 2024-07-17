@@ -7,10 +7,10 @@ const ParentComponentA = () => {
   const numValueX = 22
   
   return (
-    <div className="flex flex-col gap-5 p-5 items-start w-[700px] h-[400px] bg-slate-200 mb-16 border-[2px] border-black">
+    <div className="flex flex-col gap-2 p-5 items-start w-[700px] h-[400px] bg-slate-200 mb-16 border-[2px] border-black rounded-2xl">
       
-        <h1>ComponentA</h1>
-        <p>x = {numValueX}</p>
+        <h1 className="text-3xl">ComponentA</h1>
+        <p className="text-xl">x = {numValueX}</p>
       
 
       <ComponentB numValueX={numValueX} />
