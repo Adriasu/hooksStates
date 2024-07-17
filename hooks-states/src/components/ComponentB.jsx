@@ -3,10 +3,10 @@ import ComponentC from './ComponentC'
 
 const ComponentB = ({numValueX}) => {
 
-  const [valueX, setValueX] = useState(0)
+  const [valueX, setValueX] = useState(numValueX)
 
   const sumNumber = () => {
-    setValueX(() => (numValueX + numValueX))
+    setValueX((prev) => (prev + 1))
   }
 
   return (
